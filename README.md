@@ -34,4 +34,4 @@
   "workbench.statusBar.visible": false,
   // remove scrollbar
   "editor.scrollbar.vertical": "hidden",
-}
+}```
