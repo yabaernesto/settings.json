@@ -1,6 +1,6 @@
 ## Minha configuracao do VS Code
 
-```json
+```
 {
   "workbench.colorTheme": "Min Dark",
   "workbench.iconTheme": "symbols",
@@ -34,4 +34,4 @@
   "workbench.statusBar.visible": false,
   // remove scrollbar
   "editor.scrollbar.vertical": "hidden",
-}```
+}
