@@ -9,6 +9,9 @@
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "symbols.hidesExplorerArrows": false,
+  // fontes
+  "editor.fontFamily": "Fira Code, Roboto",
+  "editor.fontWeight": "normal",
   // format font size
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
