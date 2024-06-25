@@ -5,16 +5,16 @@
   "workbench.colorTheme": "Min Dark",
   "workbench.iconTheme": "symbols",
   "explorer.compactFolders": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "symbols.hidesExplorerArrows": false,
-  // fontes
-  "editor.fontFamily": "Fira Code, Roboto",
-  "editor.fontWeight": "normal",
   // format font size
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "normal",
+  
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.rulers": [80, 120],
@@ -35,6 +35,9 @@
   },
   // remove status bar
   "workbench.statusBar.visible": false,
-  // remove scrollbar
-  "editor.scrollbar.vertical": "hidden",
+  "explorer.sortOrder": "foldersNestsFiles",
+  // cursor
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.minimap.enabled": false,
 }
+
