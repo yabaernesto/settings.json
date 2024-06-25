@@ -13,6 +13,8 @@
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.fontFamily": "Fira Code",
+  // ativando o Fira Code
+  "editor.fontLigatures": true,
   "editor.fontWeight": "normal",
   
   "javascript.suggest.autoImports": true,
@@ -40,4 +42,3 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
 }
-
