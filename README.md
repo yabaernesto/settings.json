@@ -2,7 +2,6 @@
 
 ```json
 {
-  "workbench.colorTheme": "Min Dark",
   "workbench.iconTheme": "symbols",
   "explorer.compactFolders": false,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
@@ -12,11 +11,16 @@
   // format font size
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
-  "editor.fontFamily": "Fira Code",
   // ativando o Fira Code
+  "editor.fontFamily": "Fira Code",
+  // espacamento da identacao
+  "editor.tabSize": 2,
+  // Ativa ligaduras de fonte se suportadas pela fonte
   "editor.fontLigatures": true,
   "editor.fontWeight": "normal",
-  
+  // Ativa a quebra de linha automática
+  "editor.wordWrap": "on", 
+    
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.rulers": [80, 120],
@@ -41,4 +45,10 @@
   // cursor
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Min Dark",
+
+  // configuracao do EsLint para arrumar os erros
+  "editor.codeActionsOnSave": {
+    "source.fixAll.esLint": true,
+  }
 }
