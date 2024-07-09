@@ -51,6 +51,11 @@
   "editor.minimap.enabled": false,
   // define o comportamento da barra de rolagem vertical
   "editor.scrollbar.vertical": "hidden",
+  // controla se uma confirmação é solicitada ao excluir arquivos ou pastas no Explorer
+  "explorer.confirmDelete": true,
+  "terminal.integrated.showExitAlert": true,
+  // controla a funcionalidade de aninhamento de arquivos
+  "explorer.fileNesting.enabled": true,
 
   // configuracao do EsLint para arrumar os erros
   "editor.codeActionsOnSave": {
@@ -58,4 +63,3 @@
   },
   "workbench.colorTheme": "Min Dark"
 }
-
