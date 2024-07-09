@@ -23,7 +23,10 @@
     
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  // define colunas verticais para ajudar a manter o código dentro de uma largura desejada
   "editor.rulers": [80, 120],
+  // especifica onde a linha atual deve ser destacada
+  "editor.renderLineHighlight": "gutter",
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
   "files.associations": {
@@ -39,16 +42,20 @@
     "vitest.config.e2e.ts": "vite",
     ".env.example": "gear"
   },
-  // remove status bar
+  // define a visibilidade da barra de status no VS Code
   "workbench.statusBar.visible": false,
   "explorer.sortOrder": "foldersNestsFiles",
-  // cursor
+  // controla a exibição do cursor na régua de visão geral
   "editor.hideCursorInOverviewRuler": true,
+  // controla a exibição do minimapa no editor
   "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Min Dark",
+  // define o comportamento da barra de rolagem vertical
+  "editor.scrollbar.vertical": "hidden",
 
   // configuracao do EsLint para arrumar os erros
   "editor.codeActionsOnSave": {
-    "source.fixAll.esLint": true,
-  }
+    "source.fixAll.esLint": "explicit"
+  },
+  "workbench.colorTheme": "Min Dark"
 }
+
