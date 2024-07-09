@@ -61,5 +61,14 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.esLint": "explicit"
   },
-  "workbench.colorTheme": "Min Dark"
+  "workbench.colorTheme": "Min Dark",
+
+  // definindo o tratamento do js no pelo emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // especificando como o Emmet deve interpretar a sintaxe do JS/JSX
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  }
 }
