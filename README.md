@@ -2,7 +2,7 @@
 
 ```json
 {
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "explorer.compactFolders": false,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
@@ -11,8 +11,10 @@
   // format font size
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
-  // ativando o Fira Code
-  "editor.fontFamily": "Fira Code",
+  // fonte do vs code
+  "editor.fontFamily": "JetBrains Mono",
+  // fonte do terminal
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   // espacamento da identacao
   "editor.tabSize": 2,
   // Ativa ligaduras de fonte se suportadas pela fonte
@@ -61,7 +63,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.esLint": "explicit"
   },
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "Shades of Purple",
 
   // definindo o tratamento do js no pelo emmet
   "emmet.includeLanguages": {
@@ -70,5 +72,15 @@
   // especificando como o Emmet deve interpretar a sintaxe do JS/JSX
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
-  }
+  },
+  // configuracao do IntelliSense do tailwind
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
+  ],
+  "terminal.integrated.env.linux": {}
 }
+
