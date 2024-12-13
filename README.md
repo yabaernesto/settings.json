@@ -1,6 +1,7 @@
 # settings.json
 Minhas configurações do VS Code
 
+```json
 {
   "explorer.compactFolders": false,
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
@@ -87,3 +88,4 @@ Minhas configurações do VS Code
   },
   "workbench.colorTheme": "Omni"
 }
+```
